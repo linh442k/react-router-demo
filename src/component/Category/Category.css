@@ -1,0 +1,36 @@
+.Category{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.Category ul{
+    flex-basis: 20%;
+    border: 1px solid black;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+.Category ul li{
+    padding: 1rem;
+    list-style: none;
+}
+
+.Category ul li a{
+    text-decoration: none;
+    font-size: larger;
+    color: darkorange;
+}
+
+
+.Category ul li a:visited{
+    color: darkorange;
+}
+
+.Category ul li a:hover{
+    text-decoration: underline;
+}
+
+.Category h2{
+    padding: 1.5rem;
+}

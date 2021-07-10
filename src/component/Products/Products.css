@@ -1,0 +1,41 @@
+.Products{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.Products ul{
+    flex-basis: 20%;
+    border: 1px solid black;
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+.Products ul li{
+    padding: 1rem;
+    list-style: none;
+}
+
+.Products ul li a{
+    text-decoration: none;
+    font-size: larger;
+    color: darkorange;
+}
+
+
+.Products ul li a:visited{
+    color: darkorange;
+}
+
+.Products ul li a:hover{
+    text-decoration: underline;
+}
+
+.Products .Label{
+    padding-top: 4.5rem;
+}
+
+.Products .Product{
+    margin-top: 4.5rem;
+}

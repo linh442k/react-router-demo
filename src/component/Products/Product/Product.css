@@ -1,0 +1,12 @@
+.Product .Label{
+    margin-top: 0 !important ;
+}
+.Product .detail h3{
+    font-size: x-large;
+}
+.Product .detail p{
+    font-size: large;
+}
+.Product .detail h4{
+    font-size: larger;
+}

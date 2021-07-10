@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -39,4 +39,25 @@
 
 button {
   font-size: calc(10px + 2vmin);
+} */
+.nav-items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem;
+  padding: 1rem;
+}
+.nav-items li a{
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+.nav-items li a:visited{
+  color: cornflowerblue;
+}
+.nav-items li a:hover{
+  text-decoration: underline;
 }
